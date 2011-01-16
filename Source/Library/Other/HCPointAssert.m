@@ -43,9 +43,9 @@ void HC_assertThatCGPointWithLocation(id testCase, CGPoint actual, id<HCMatcher>
     return [self valueMatcherWithValue:[NSValue valueWithCGPoint:aPoint]];
 }
 
-- (NSPoint)pointValue
+- (CGPoint)pointValue
 {
-    return [[self objectValue] CGPointValue];
+    return [[self valueObject] CGPointValue];
 }
 
 @end
