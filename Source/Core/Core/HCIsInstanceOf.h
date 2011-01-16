@@ -23,18 +23,10 @@
 @end
 
 
-#ifdef __cplusplus
-extern "C" {
-#endif
-
 /**
     Is the value an instance of a particular type?
 */
-id<HCMatcher> HC_instanceOf(Class type);
-
-#ifdef __cplusplus
-}
-#endif
+OCHAMCREST_EXPORT id<HCMatcher> HC_instanceOf(Class type);
 
 
 #ifdef HC_SHORTHAND

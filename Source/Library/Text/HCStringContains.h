@@ -21,15 +21,7 @@
 @end
 
 
-#ifdef __cplusplus
-extern "C" {
-#endif
-
-id<HCMatcher> HC_containsString(NSString* aSubstring);
-
-#ifdef __cplusplus
-}
-#endif
+OCHAMCREST_EXPORT id<HCMatcher> HC_containsString(NSString* aSubstring);
 
 
 #ifdef HC_SHORTHAND

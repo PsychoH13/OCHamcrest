@@ -20,20 +20,12 @@
 @end
 
 
-#ifdef __cplusplus
-extern "C" {
-#endif
-
-id<HCMatcher> HC_hasItem(id item);
+OCHAMCREST_EXPORT id<HCMatcher> HC_hasItem(id item);
 
 /**
     @param item comma-separated list of items ending with nil.
 */
-id<HCMatcher> HC_hasItems(id item, ...);
-
-#ifdef __cplusplus
-}
-#endif
+OCHAMCREST_EXPORT id<HCMatcher> HC_hasItems(id item, ...);
 
 
 #ifdef HC_SHORTHAND

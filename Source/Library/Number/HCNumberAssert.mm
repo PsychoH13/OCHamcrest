@@ -38,7 +38,8 @@ defineNumberAssert(UnsignedLong, unsigned long)
 defineNumberAssert(UnsignedLongLong, unsigned long long)
 defineNumberAssert(UnsignedShort, unsigned short)
 
-#if defined(OBJC_API_VERSION) && OBJC_API_VERSION >= 2
+
+#if defined(NSINTEGER_DEFINED) && NSINTEGER_DEFINED
 defineNumberAssert(Integer, NSInteger)
 defineNumberAssert(UnsignedInteger, NSUInteger)
 #endif  // Objective-C 2.0

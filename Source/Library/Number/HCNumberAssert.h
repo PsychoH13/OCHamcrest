@@ -10,9 +10,7 @@
 @protocol HCMatcher;
 
 
-#ifdef __cplusplus
-extern "C" {
-#endif
+__BEGIN_DECLS
 
 void HC_assertThatBoolWithLocation(id testCase, BOOL actual,
         id<HCMatcher> matcher, const char* fileName, int lineNumber);
@@ -53,7 +51,8 @@ void HC_assertThatUnsignedLongLongWithLocation(id testCase, unsigned long long a
 void HC_assertThatUnsignedShortWithLocation(id testCase, unsigned short actual,
         id<HCMatcher> matcher, const char* fileName, int lineNumber);
 
-#if defined(OBJC_API_VERSION) && OBJC_API_VERSION >= 2
+
+#if defined(NSINTEGER_DEFINED) && NSINTEGER_DEFINED
 
 void HC_assertThatIntegerWithLocation(id testCase, NSInteger actual,
         id<HCMatcher> matcher, const char* fileName, int lineNumber);
@@ -63,9 +62,7 @@ void HC_assertThatUnsignedIntegerWithLocation(id testCase, NSUInteger actual,
 
 #endif  // Objective-C 2.0
 
-#ifdef __cplusplus
-}
-#endif
+__END_DECLS
 
 /**
     OCUnit integration asserting that actual value, when converted to an NSNumber satisfies matcher.
@@ -146,7 +143,7 @@ void HC_assertThatUnsignedIntegerWithLocation(id testCase, NSUInteger actual,
     HC_assertThatUnsignedShortWithLocation(self, actual, matcher, __FILE__, __LINE__)
 
 
-#if defined(OBJC_API_VERSION) && OBJC_API_VERSION >= 2
+#if defined(NSINTEGER_DEFINED) && NSINTEGER_DEFINED
 
 /**
     OCUnit integration asserting that actual value, when converted to an NSNumber satisfies matcher.
@@ -231,7 +228,7 @@ void HC_assertThatUnsignedIntegerWithLocation(id testCase, NSUInteger actual,
 #define assertThatUnsignedShort HC_assertThatUnsignedShort
 
 
-#if defined(OBJC_API_VERSION) && OBJC_API_VERSION >= 2
+#if defined(NSINTEGER_DEFINED) && NSINTEGER_DEFINED
 
 /**
     Shorthand for HC_assertThatInt, available if HC_SHORTHAND is defined.

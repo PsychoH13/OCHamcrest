@@ -5,6 +5,8 @@
 //  Created by: Jon Reid
 //
 
+#import "HCDefines.h"
+
     // Unit test integration
 #import "HCMatcherAssert.h"
 #import "HCNumberAssert.h"

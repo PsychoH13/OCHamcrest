@@ -5,19 +5,16 @@
 //  Created by: Jon Reid
 //
 
+#import "HCDefines.h"
+
 @protocol HCMatcher;
 
+@class NSException, NSString;
 
-#ifdef __cplusplus
-extern "C" {
-#endif
 
-void HC_assertThatWithLocation(id testCase, id actual, id<HCMatcher> matcher,
-                               const char* fileName, int lineNumber);
+OCHAMCREST_EXPORT void HC_assertThatWithLocation(id testCase, id actual, id<HCMatcher> matcher, const char* fileName, int lineNumber);
 
-#ifdef __cplusplus
-}
-#endif
+OCHAMCREST_EXPORT NSException *HCCreateAssertThatFailure(const char *fileName, int lineNumber, NSString *description);
 
 /**
     OCUnit integration asserting that actual value satisfies matcher.

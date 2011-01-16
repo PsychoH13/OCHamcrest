@@ -20,12 +20,7 @@
 
 - (void) subclassResponsibility:(SEL)command
 {
-    [NSException raise:NSGenericException
-				#if (TARGET_OS_IPHONE)
-                format:@"-[%@  %s] not implemented", NSStringFromClass([self class]), command];
-                #else
-                format:@"-[%@  %s] not implemented", [self className], command];
-                #endif
+    [NSException raise:NSGenericException format:@"-[%@  %s] not implemented", NSStringFromClass([self class]), command];
 }
 
 @end

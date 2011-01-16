@@ -22,20 +22,12 @@
 @end
 
 
-#ifdef __cplusplus
-extern "C" {
-#endif
-
 /**
     Evaluates whether [item description] satisfies a given matcher.
 
     Example: hasDescription(equalTo(result))
 */
-id<HCMatcher> HC_hasDescription(id item);
-
-#ifdef __cplusplus
-}
-#endif
+OCHAMCREST_EXPORT id<HCMatcher> HC_hasDescription(id item);
 
 
 #ifdef HC_SHORTHAND

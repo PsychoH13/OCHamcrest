@@ -23,18 +23,10 @@
 @end
 
 
-#ifdef __cplusplus
-extern "C" {
-#endif
-
 /**
     Evaluates to @c YES only when the argument is this same object.
 */
-id<HCMatcher> HC_sameInstance(id anObject);
-
-#ifdef __cplusplus
-}
-#endif
+OCHAMCREST_EXPORT id<HCMatcher> HC_sameInstance(id anObject);
 
 
 #ifdef HC_SHORTHAND

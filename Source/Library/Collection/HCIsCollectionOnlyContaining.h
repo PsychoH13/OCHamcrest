@@ -25,10 +25,6 @@
 @end
 
 
-#ifdef __cplusplus
-extern "C" {
-#endif
-
 /**
     Matches collections that only contain elements satisfying any of a list of items.
 
@@ -43,11 +39,7 @@ extern "C" {
 
     @param item comma-separated list of items ending with nil.
 */
-id<HCMatcher> HC_onlyContains(id item, ...);
-
-#ifdef __cplusplus
-}
-#endif
+OCHAMCREST_EXPORT id<HCMatcher> HC_onlyContains(id item, ...);
 
 
 #ifdef HC_SHORTHAND

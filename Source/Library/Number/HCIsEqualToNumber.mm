@@ -21,7 +21,7 @@ using namespace hamcrest;
     }
 
 
-extern "C" {
+__BEGIN_DECLS
 
 defineEqualToNumber(Bool, BOOL)
 defineEqualToNumber(Char, char)
@@ -37,9 +37,9 @@ defineEqualToNumber(UnsignedLong, unsigned long)
 defineEqualToNumber(UnsignedLongLong, unsigned long long)
 defineEqualToNumber(UnsignedShort, unsigned short)
 
-#if defined(OBJC_API_VERSION) && OBJC_API_VERSION >= 2
+#if defined(NSINTEGER_DEFINED) && NSINTEGER_DEFINED
 defineEqualToNumber(Integer, NSInteger)
 defineEqualToNumber(UnsignedInteger, NSUInteger)
 #endif  // Objective-C 2.0
 
-}   // extern "C"
+__END_DECLS

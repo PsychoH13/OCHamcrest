@@ -7,6 +7,7 @@
 
     // Inherited
 #import <Foundation/Foundation.h>
+#import "HCDefines.h"
 #import "HCMatcher.h"
 
 

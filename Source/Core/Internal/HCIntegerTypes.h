@@ -10,7 +10,7 @@
     Define Leopard integer types for Tiger
 */
 
-#if !defined(OBJC_API_VERSION) || OBJC_API_VERSION < 2
+#if !defined(NSINTEGER_DEFINED) || !NSINTEGER_DEFINED
 
 // Define 32-bit types only. I presume that anyone in 64-bit is not building for Tiger.
 

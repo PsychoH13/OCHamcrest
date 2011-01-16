@@ -20,15 +20,7 @@
 @end
 
 
-#ifdef __cplusplus
-extern "C" {
-#endif
-
-id<HCMatcher> HC_isIn(id collection);
-
-#ifdef __cplusplus
-}
-#endif
+OCHAMCREST_EXPORT id<HCMatcher> HC_isIn(id collection);
 
 
 #ifdef HC_SHORTHAND

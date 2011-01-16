@@ -7,22 +7,11 @@
 
     // Mac
 #import <Foundation/Foundation.h>
-
-    // C
-#import <stdarg.h>
+#import "HCDefines.h"
 
 @protocol HCMatcher;
-
-
-#ifdef __cplusplus
-extern "C" {
-#endif
 
 /**
     Returns an array of matchers from a variable-length comma-separated list terminated by @c nil.
 */
-NSMutableArray* HC_collectMatchers(id<HCMatcher> matcher, va_list args);
-
-#ifdef __cplusplus
-}
-#endif
+OCHAMCREST_EXPORT NSMutableArray* HC_collectMatchers(id<HCMatcher> matcher, va_list args);

@@ -6,6 +6,7 @@
 //
 
     // Inherited
+#import "HCDefines.h"
 #import "HCBaseMatcher.h"
 
 
@@ -28,23 +29,13 @@
 
 @end
 
-
-#ifdef __cplusplus
-extern "C" {
-#endif
-
 /**
     Wraps an existing matcher and overrides the description when it fails.
     
     Optional values following the matcher are substituted for \%0, \%1, etc.
     The last argument must be nil.
 */
-id<HCMatcher> HC_describedAs(NSString* description, id<HCMatcher> matcher, ...);
-
-#ifdef __cplusplus
-}
-#endif
-
+OCHAMCREST_EXPORT id<HCMatcher> HC_describedAs(NSString* description, id<HCMatcher> matcher, ...);
 
 #ifdef HC_SHORTHAND
 

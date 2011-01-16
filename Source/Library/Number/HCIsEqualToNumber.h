@@ -8,10 +8,7 @@
     // Inherited
 #import "HCBaseMatcher.h"
 
-
-#ifdef __cplusplus
-extern "C" {
-#endif
+__BEGIN_DECLS
 
 /**
     Is the value, when converted to an NSNumber, equal to another object?
@@ -79,7 +76,7 @@ id<HCMatcher> HC_equalToUnsignedLongLong(unsigned long long value);
 id<HCMatcher> HC_equalToUnsignedShort(unsigned short value);
 
 
-#if defined(OBJC_API_VERSION) && OBJC_API_VERSION >= 2
+#if defined(NSINTEGER_DEFINED) && NSINTEGER_DEFINED
 
 /**
     Is the value, when converted to an NSNumber, equal to another object?
@@ -94,9 +91,7 @@ id<HCMatcher> HC_equalToUnsignedInteger(NSUInteger value);
 #endif  // Objective-C 2.0
 
 
-#ifdef __cplusplus
-}
-#endif
+__END_DECLS
 
 
 #ifdef HC_SHORTHAND
@@ -167,7 +162,7 @@ id<HCMatcher> HC_equalToUnsignedInteger(NSUInteger value);
 #define equalToUnsignedShort HC_equalToUnsignedShort
 
 
-#if defined(OBJC_API_VERSION) && OBJC_API_VERSION >= 2
+#if defined(NSINTEGER_DEFINED) && NSINTEGER_DEFINED
 
 /**
     Shorthand for HC_equalToInteger, available if HC_SHORTHAND is defined.

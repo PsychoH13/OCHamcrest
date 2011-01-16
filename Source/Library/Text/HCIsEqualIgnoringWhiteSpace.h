@@ -24,15 +24,7 @@
 @end
 
 
-#ifdef __cplusplus
-extern "C" {
-#endif
-
-id<HCMatcher> HC_equalToIgnoringWhiteSpace(NSString* aString);
-
-#ifdef __cplusplus
-}
-#endif
+OCHAMCREST_EXPORT id<HCMatcher> HC_equalToIgnoringWhiteSpace(NSString* aString);
 
 
 #ifdef HC_SHORTHAND

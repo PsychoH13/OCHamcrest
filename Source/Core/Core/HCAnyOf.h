@@ -6,6 +6,7 @@
 //
 
     // Inherited
+#import "HCDefines.h"
 #import "HCBaseMatcher.h"
 
 
@@ -25,21 +26,12 @@
 
 @end
 
-
-#ifdef __cplusplus
-extern "C" {
-#endif
-
 /**
     Evaluates to @c YES if @b any of the passed in matchers evaluate to @c YES.
     
     @param matcher Comma-separated list of matchers ending with @c nil.
 */
-id<HCMatcher> HC_anyOf(id<HCMatcher> matcher, ...);
-
-#ifdef __cplusplus
-}
-#endif
+OCHAMCREST_EXPORT id<HCMatcher> HC_anyOf(id<HCMatcher> matcher, ...);
 
 
 #ifdef HC_SHORTHAND

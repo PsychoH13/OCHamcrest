@@ -26,33 +26,25 @@
 @end
 
 
-#ifdef __cplusplus
-extern "C" {
-#endif
-
 /**
     Is value > expected?
 */
-id<HCMatcher> HC_greaterThan(id aValue);
+OCHAMCREST_EXPORT id<HCMatcher> HC_greaterThan(id aValue);
 
 /**
     Is value >= expected?
 */
-id<HCMatcher> HC_greaterThanOrEqualTo(id aValue);
+OCHAMCREST_EXPORT id<HCMatcher> HC_greaterThanOrEqualTo(id aValue);
 
 /**
     Is value < expected?
 */
-id<HCMatcher> HC_lessThan(id aValue);
+OCHAMCREST_EXPORT id<HCMatcher> HC_lessThan(id aValue);
 
 /**
     Is value <= expected?
 */
-id<HCMatcher> HC_lessThanOrEqualTo(id aValue);
-
-#ifdef __cplusplus
-}
-#endif
+OCHAMCREST_EXPORT id<HCMatcher> HC_lessThanOrEqualTo(id aValue);
 
 
 #ifdef HC_SHORTHAND

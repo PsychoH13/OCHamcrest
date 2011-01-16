@@ -298,7 +298,7 @@
 }
 
 
-#if defined(OBJC_API_VERSION) && OBJC_API_VERSION >= 2
+#if defined(NSINTEGER_DEFINED) && NSINTEGER_DEFINED
 
 - (void) testSuccess_withInteger
 {

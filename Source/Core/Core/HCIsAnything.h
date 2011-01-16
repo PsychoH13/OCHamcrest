@@ -6,6 +6,7 @@
 //
 
     // Inherited
+#import "HCDefines.h"
 #import "HCBaseMatcher.h"
 
 
@@ -24,26 +25,17 @@
 
 @end
 
-
-#ifdef __cplusplus
-extern "C" {
-#endif
-
 /**
     This matcher always evaluates to @c YES.
 */
-id<HCMatcher> HC_anything();
+OCHAMCREST_EXPORT id<HCMatcher> HC_anything();
 
 /**
     This matcher always evaluates to <code>YES</code>.
     
     @param aDescription A meaningful string used when describing itself.
 */
-id<HCMatcher> HC_anythingWithDescription(NSString* aDescription);
-
-#ifdef __cplusplus
-}
-#endif
+OCHAMCREST_EXPORT id<HCMatcher> HC_anythingWithDescription(NSString* aDescription);
 
 
 #ifdef HC_SHORTHAND

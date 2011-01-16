@@ -21,23 +21,15 @@
 @end
 
 
-#ifdef __cplusplus
-extern "C" {
-#endif
-
 /**
     Matches if the value is @c nil.
 */
-id<HCMatcher> HC_nilValue();
+OCHAMCREST_EXPORT id<HCMatcher> HC_nilValue();
 
 /**
     Matches if the value is not @c nil.
 */
-id<HCMatcher> HC_notNilValue();
-
-#ifdef __cplusplus
-}
-#endif
+OCHAMCREST_EXPORT id<HCMatcher> HC_notNilValue();
 
 
 #ifdef HC_SHORTHAND

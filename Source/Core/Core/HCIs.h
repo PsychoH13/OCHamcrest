@@ -32,11 +32,6 @@ assertThat(cheese, is(equalTo(smelly)))
 
 @end
 
-
-#ifdef __cplusplus
-extern "C" {
-#endif
-
 /**
     Decorates an item, providing shortcuts to the frequently used is(equalTo(x)).
     
@@ -49,11 +44,7 @@ assertThat(cheese, is(equalTo(smelly)))
 assertThat(cheese, is(smelly))
 @endcode
 */
-id<HCMatcher> HC_is(id item);
-
-#ifdef __cplusplus
-}
-#endif
+OCHAMCREST_EXPORT id<HCMatcher> HC_is(id item);
 
 
 #ifdef HC_SHORTHAND

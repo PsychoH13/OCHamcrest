@@ -1,3 +1,0 @@
-# Files in the project
-Source/OCHamcrest.xcodeproj/*.pbxproj -crlf -diff -merge
-
