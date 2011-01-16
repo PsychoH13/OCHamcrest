@@ -45,3 +45,36 @@
 #import "HCStringContains.h"
 #import "HCStringEndsWith.h"
 #import "HCStringStartsWith.h"
+
+    // Library: Other
+#import "HCValueMatcher.h"
+
+    // Library: Pointer
+#import "HCPointerAssert.h"
+#import "HCIsEqualToPointer.h"
+#import "HCIsNullPointer.h"
+
+    // Library: Range
+#import "HCRangeAssert.h"
+#import "HCIsEqualToRange.h"
+#import "HCIsLocationInRange.h"
+#import "HCInvalidRange.h"
+#import "HCEmptyRange.h"
+
+    // Library: Point
+#import "HCPointAssert.h"
+#import "HCIsEqualToPoint.h"
+
+    // Library: Size
+#import "HCSizeAssert.h"
+#import "HCIsEqualToSize.h"
+
+    // Library: Rect
+#import "HCRectAssert.h"
+#import "HCIsEqualToRect.h"
+#import "HCIntersectsRect.h"
+#import "HCContainsRect.h"
+#import "HCContainedInRect.h"
+#import "HCEmptyRect.h"
+#import "HCNullRect.h"
+#import "HCInfiniteRect.h"
