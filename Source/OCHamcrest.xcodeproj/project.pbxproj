@@ -209,6 +209,77 @@
 		AEF158DD11C97105005B4F92 /* HCMatcher.h in Copy headers to framework */ = {isa = PBXBuildFile; fileRef = 0F2A4AD30D8B493600051BCF /* HCMatcher.h */; };
 		AEF158DE11C97105005B4F92 /* HCRequireNonNilString.h in Copy headers to framework */ = {isa = PBXBuildFile; fileRef = 0FA913830DA084DA000AC3AA /* HCRequireNonNilString.h */; };
 		AEF158F311C9717B005B4F92 /* InfoPlist.strings in Copy resources to framework */ = {isa = PBXBuildFile; fileRef = 089C1667FE841158C02AAC07 /* InfoPlist.strings */; };
+		C6AB8E0412E2509C004152F7 /* HCIsEqualToRange.m in Sources */ = {isa = PBXBuildFile; fileRef = C6AB8E0312E2509C004152F7 /* HCIsEqualToRange.m */; };
+		C6AB8E0512E2509C004152F7 /* HCIsEqualToRange.h in Headers */ = {isa = PBXBuildFile; fileRef = C6AB8E0212E2509C004152F7 /* HCIsEqualToRange.h */; };
+		C6AB8E0612E2509C004152F7 /* HCIsEqualToRange.m in Sources */ = {isa = PBXBuildFile; fileRef = C6AB8E0312E2509C004152F7 /* HCIsEqualToRange.m */; };
+		C6AB8E0712E250AA004152F7 /* HCRangeAssert.m in Sources */ = {isa = PBXBuildFile; fileRef = C6AB8DFF12E24FA6004152F7 /* HCRangeAssert.m */; };
+		C6AB8E0812E250AD004152F7 /* HCIsNullPointer.m in Sources */ = {isa = PBXBuildFile; fileRef = C6DA8A8512E1EEB500CC0F31 /* HCIsNullPointer.m */; };
+		C6AB8E0B12E25107004152F7 /* HCIsLocationInRange.m in Sources */ = {isa = PBXBuildFile; fileRef = C6DA8A9312E1F35900CC0F31 /* HCIsLocationInRange.m */; };
+		C6AB8E2F12E253C2004152F7 /* HCEmptyRange.m in Sources */ = {isa = PBXBuildFile; fileRef = C6AB8E2E12E253C2004152F7 /* HCEmptyRange.m */; };
+		C6AB8E3012E253C2004152F7 /* HCEmptyRange.h in Headers */ = {isa = PBXBuildFile; fileRef = C6AB8E2D12E253C2004152F7 /* HCEmptyRange.h */; };
+		C6AB8E3112E253C2004152F7 /* HCEmptyRange.m in Sources */ = {isa = PBXBuildFile; fileRef = C6AB8E2E12E253C2004152F7 /* HCEmptyRange.m */; };
+		C6AB8E3412E255E5004152F7 /* HCInvalidRange.m in Sources */ = {isa = PBXBuildFile; fileRef = C6AB8E3312E255E5004152F7 /* HCInvalidRange.m */; };
+		C6AB8E3512E255E5004152F7 /* HCInvalidRange.h in Headers */ = {isa = PBXBuildFile; fileRef = C6AB8E3212E255E5004152F7 /* HCInvalidRange.h */; };
+		C6AB8E3612E255E5004152F7 /* HCInvalidRange.m in Sources */ = {isa = PBXBuildFile; fileRef = C6AB8E3312E255E5004152F7 /* HCInvalidRange.m */; };
+		C6BD66DE12E2946300608D2B /* PointerAssertTest.m in Sources */ = {isa = PBXBuildFile; fileRef = C6BD66DD12E2946300608D2B /* PointerAssertTest.m */; };
+		C6BD670012E29A4D00608D2B /* IsEqualToPointerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = C6BD66FF12E29A4D00608D2B /* IsEqualToPointerTest.m */; };
+		C6BD670712E29B9100608D2B /* IsNullPointerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = C6BD670612E29B9100608D2B /* IsNullPointerTest.m */; };
+		C6BD671A12E29DDF00608D2B /* RangeAssertTest.m in Sources */ = {isa = PBXBuildFile; fileRef = C6BD671912E29DDF00608D2B /* RangeAssertTest.m */; };
+		C6BD675312E2A47500608D2B /* HCValueMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = C6BD675112E2A10400608D2B /* HCValueMatcher.m */; };
+		C6BD675412E2A48100608D2B /* HCValueMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = C6BD675112E2A10400608D2B /* HCValueMatcher.m */; };
+		C6BD67B712E2A8B900608D2B /* IsEqualToRangeTest.m in Sources */ = {isa = PBXBuildFile; fileRef = C6BD67B612E2A8B900608D2B /* IsEqualToRangeTest.m */; };
+		C6BD67C012E2AA0E00608D2B /* IsLocationInRangeTest.m in Sources */ = {isa = PBXBuildFile; fileRef = C6BD67BF12E2AA0E00608D2B /* IsLocationInRangeTest.m */; };
+		C6BD67D212E2AB5A00608D2B /* EmptyRangeTest.m in Sources */ = {isa = PBXBuildFile; fileRef = C6BD67D112E2AB5A00608D2B /* EmptyRangeTest.m */; };
+		C6BD67E212E2AE1D00608D2B /* InvalidRangeTest.m in Sources */ = {isa = PBXBuildFile; fileRef = C6BD67E112E2AE1D00608D2B /* InvalidRangeTest.m */; };
+		C6CE3E6012E272DD0048724B /* HCRectAssert.m in Sources */ = {isa = PBXBuildFile; fileRef = C6CE3E5F12E272DD0048724B /* HCRectAssert.m */; };
+		C6CE3E6112E272DD0048724B /* HCRectAssert.h in Headers */ = {isa = PBXBuildFile; fileRef = C6CE3E5E12E272DD0048724B /* HCRectAssert.h */; };
+		C6CE3E6212E272DD0048724B /* HCRectAssert.m in Sources */ = {isa = PBXBuildFile; fileRef = C6CE3E5F12E272DD0048724B /* HCRectAssert.m */; };
+		C6CE3E6A12E2773D0048724B /* HCIsEqualToRect.m in Sources */ = {isa = PBXBuildFile; fileRef = C6CE3E6912E2773D0048724B /* HCIsEqualToRect.m */; };
+		C6CE3E6B12E2773D0048724B /* HCIsEqualToRect.h in Headers */ = {isa = PBXBuildFile; fileRef = C6CE3E6812E2773D0048724B /* HCIsEqualToRect.h */; };
+		C6CE3E6C12E2773D0048724B /* HCIsEqualToRect.m in Sources */ = {isa = PBXBuildFile; fileRef = C6CE3E6912E2773D0048724B /* HCIsEqualToRect.m */; };
+		C6CE3EB212E27C910048724B /* HCPointAssert.m in Sources */ = {isa = PBXBuildFile; fileRef = C6CE3EAE12E27C910048724B /* HCPointAssert.m */; };
+		C6CE3EB312E27C910048724B /* HCIsEqualToPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = C6CE3EB112E27C910048724B /* HCIsEqualToPoint.m */; };
+		C6CE3EB412E27C910048724B /* HCPointAssert.m in Sources */ = {isa = PBXBuildFile; fileRef = C6CE3EAE12E27C910048724B /* HCPointAssert.m */; };
+		C6CE3EB512E27C910048724B /* HCPointAssert.h in Headers */ = {isa = PBXBuildFile; fileRef = C6CE3EAF12E27C910048724B /* HCPointAssert.h */; };
+		C6CE3EB612E27C910048724B /* HCIsEqualToPoint.h in Headers */ = {isa = PBXBuildFile; fileRef = C6CE3EB012E27C910048724B /* HCIsEqualToPoint.h */; };
+		C6CE3EB712E27C910048724B /* HCIsEqualToPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = C6CE3EB112E27C910048724B /* HCIsEqualToPoint.m */; };
+		C6CE3EC112E27D610048724B /* HCIsEqualToSize.m in Sources */ = {isa = PBXBuildFile; fileRef = C6CE3EBD12E27D610048724B /* HCIsEqualToSize.m */; };
+		C6CE3EC212E27D610048724B /* HCSizeAssert.m in Sources */ = {isa = PBXBuildFile; fileRef = C6CE3EC012E27D610048724B /* HCSizeAssert.m */; };
+		C6CE3EC312E27D610048724B /* HCIsEqualToSize.m in Sources */ = {isa = PBXBuildFile; fileRef = C6CE3EBD12E27D610048724B /* HCIsEqualToSize.m */; };
+		C6CE3EC412E27D610048724B /* HCIsEqualToSize.h in Headers */ = {isa = PBXBuildFile; fileRef = C6CE3EBE12E27D610048724B /* HCIsEqualToSize.h */; };
+		C6CE3EC512E27D610048724B /* HCSizeAssert.h in Headers */ = {isa = PBXBuildFile; fileRef = C6CE3EBF12E27D610048724B /* HCSizeAssert.h */; };
+		C6CE3EC612E27D610048724B /* HCSizeAssert.m in Sources */ = {isa = PBXBuildFile; fileRef = C6CE3EC012E27D610048724B /* HCSizeAssert.m */; };
+		C6CE3EC912E27D8E0048724B /* HCIntersectsRect.m in Sources */ = {isa = PBXBuildFile; fileRef = C6CE3EC812E27D8E0048724B /* HCIntersectsRect.m */; };
+		C6CE3ECA12E27D8E0048724B /* HCIntersectsRect.h in Headers */ = {isa = PBXBuildFile; fileRef = C6CE3EC712E27D8E0048724B /* HCIntersectsRect.h */; };
+		C6CE3ECB12E27D8E0048724B /* HCIntersectsRect.m in Sources */ = {isa = PBXBuildFile; fileRef = C6CE3EC812E27D8E0048724B /* HCIntersectsRect.m */; };
+		C6CE3EF012E27FE60048724B /* HCIsLocationInRange.m in Sources */ = {isa = PBXBuildFile; fileRef = C6DA8A9312E1F35900CC0F31 /* HCIsLocationInRange.m */; };
+		C6CE3EF112E27FEA0048724B /* HCIsNullPointer.m in Sources */ = {isa = PBXBuildFile; fileRef = C6DA8A8512E1EEB500CC0F31 /* HCIsNullPointer.m */; };
+		C6CE3EF212E27FEC0048724B /* HCRangeAssert.m in Sources */ = {isa = PBXBuildFile; fileRef = C6AB8DFF12E24FA6004152F7 /* HCRangeAssert.m */; };
+		C6CE3EF312E27FF80048724B /* HCIsLocationInRange.h in Headers */ = {isa = PBXBuildFile; fileRef = C6DA8A9212E1F35900CC0F31 /* HCIsLocationInRange.h */; };
+		C6CE3EF412E27FF90048724B /* HCIsNullPointer.h in Headers */ = {isa = PBXBuildFile; fileRef = C6DA8A8412E1EEB500CC0F31 /* HCIsNullPointer.h */; };
+		C6CE3EF512E27FFB0048724B /* HCRangeAssert.h in Headers */ = {isa = PBXBuildFile; fileRef = C6AB8DFE12E24FA6004152F7 /* HCRangeAssert.h */; };
+		C6CE3EF812E280160048724B /* HCNullRect.m in Sources */ = {isa = PBXBuildFile; fileRef = C6CE3EF712E280160048724B /* HCNullRect.m */; };
+		C6CE3EF912E280160048724B /* HCNullRect.h in Headers */ = {isa = PBXBuildFile; fileRef = C6CE3EF612E280160048724B /* HCNullRect.h */; };
+		C6CE3EFA12E280160048724B /* HCNullRect.m in Sources */ = {isa = PBXBuildFile; fileRef = C6CE3EF712E280160048724B /* HCNullRect.m */; };
+		C6CE3F0E12E283920048724B /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6CE3F0D12E283920048724B /* ApplicationServices.framework */; };
+		C6CE3F1612E283B00048724B /* HCInfiniteRect.m in Sources */ = {isa = PBXBuildFile; fileRef = C6CE3F1512E283B00048724B /* HCInfiniteRect.m */; };
+		C6CE3F1712E283B00048724B /* HCInfiniteRect.h in Headers */ = {isa = PBXBuildFile; fileRef = C6CE3F1412E283B00048724B /* HCInfiniteRect.h */; };
+		C6CE3F1812E283B00048724B /* HCInfiniteRect.m in Sources */ = {isa = PBXBuildFile; fileRef = C6CE3F1512E283B00048724B /* HCInfiniteRect.m */; };
+		C6CE3F1D12E283FF0048724B /* HCEmptyRect.m in Sources */ = {isa = PBXBuildFile; fileRef = C6CE3F1C12E283FF0048724B /* HCEmptyRect.m */; };
+		C6CE3F1E12E283FF0048724B /* HCEmptyRect.h in Headers */ = {isa = PBXBuildFile; fileRef = C6CE3F1B12E283FF0048724B /* HCEmptyRect.h */; };
+		C6CE3F1F12E283FF0048724B /* HCEmptyRect.m in Sources */ = {isa = PBXBuildFile; fileRef = C6CE3F1C12E283FF0048724B /* HCEmptyRect.m */; };
+		C6CE3F2212E285060048724B /* HCContainedInRect.m in Sources */ = {isa = PBXBuildFile; fileRef = C6CE3F2112E285060048724B /* HCContainedInRect.m */; };
+		C6CE3F2312E285060048724B /* HCContainedInRect.h in Headers */ = {isa = PBXBuildFile; fileRef = C6CE3F2012E285060048724B /* HCContainedInRect.h */; };
+		C6CE3F2412E285060048724B /* HCContainedInRect.m in Sources */ = {isa = PBXBuildFile; fileRef = C6CE3F2112E285060048724B /* HCContainedInRect.m */; };
+		C6CE3F2712E2857C0048724B /* HCContainsRect.m in Sources */ = {isa = PBXBuildFile; fileRef = C6CE3F2612E2857C0048724B /* HCContainsRect.m */; };
+		C6CE3F2812E2857C0048724B /* HCContainsRect.h in Headers */ = {isa = PBXBuildFile; fileRef = C6CE3F2512E2857C0048724B /* HCContainsRect.h */; };
+		C6CE3F2912E2857C0048724B /* HCContainsRect.m in Sources */ = {isa = PBXBuildFile; fileRef = C6CE3F2612E2857C0048724B /* HCContainsRect.m */; };
+		C6CE3F5512E28AF50048724B /* HCPointerAssert.m in Sources */ = {isa = PBXBuildFile; fileRef = C6CE3F5312E28AF50048724B /* HCPointerAssert.m */; };
+		C6CE3F5612E28AF50048724B /* HCPointerAssert.m in Sources */ = {isa = PBXBuildFile; fileRef = C6CE3F5312E28AF50048724B /* HCPointerAssert.m */; };
+		C6CE3F5712E28AF50048724B /* HCPointerAssert.h in Headers */ = {isa = PBXBuildFile; fileRef = C6CE3F5412E28AF50048724B /* HCPointerAssert.h */; };
+		C6CE3F5E12E28BC60048724B /* HCIsEqualToPointer.m in Sources */ = {isa = PBXBuildFile; fileRef = C6CE3F5D12E28BC60048724B /* HCIsEqualToPointer.m */; };
+		C6CE3F5F12E28BC60048724B /* HCIsEqualToPointer.h in Headers */ = {isa = PBXBuildFile; fileRef = C6CE3F5C12E28BC60048724B /* HCIsEqualToPointer.h */; };
+		C6CE3F6012E28BC60048724B /* HCIsEqualToPointer.m in Sources */ = {isa = PBXBuildFile; fileRef = C6CE3F5D12E28BC60048724B /* HCIsEqualToPointer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -402,7 +473,57 @@
 		8DC2EF5A0486A6940098B216 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8DC2EF5B0486A6940098B216 /* OCHamcrest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OCHamcrest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6AB8DE112E24821004152F7 /* HCDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDefines.h; sourceTree = "<group>"; };
+		C6AB8DFE12E24FA6004152F7 /* HCRangeAssert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCRangeAssert.h; sourceTree = "<group>"; };
+		C6AB8DFF12E24FA6004152F7 /* HCRangeAssert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCRangeAssert.m; sourceTree = "<group>"; };
+		C6AB8E0212E2509C004152F7 /* HCIsEqualToRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCIsEqualToRange.h; sourceTree = "<group>"; };
+		C6AB8E0312E2509C004152F7 /* HCIsEqualToRange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCIsEqualToRange.m; sourceTree = "<group>"; };
+		C6AB8E2D12E253C2004152F7 /* HCEmptyRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCEmptyRange.h; sourceTree = "<group>"; };
+		C6AB8E2E12E253C2004152F7 /* HCEmptyRange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCEmptyRange.m; sourceTree = "<group>"; };
+		C6AB8E3212E255E5004152F7 /* HCInvalidRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCInvalidRange.h; sourceTree = "<group>"; };
+		C6AB8E3312E255E5004152F7 /* HCInvalidRange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCInvalidRange.m; sourceTree = "<group>"; };
+		C6BD66DD12E2946300608D2B /* PointerAssertTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PointerAssertTest.m; sourceTree = "<group>"; };
+		C6BD66FF12E29A4D00608D2B /* IsEqualToPointerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IsEqualToPointerTest.m; sourceTree = "<group>"; };
+		C6BD670612E29B9100608D2B /* IsNullPointerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IsNullPointerTest.m; sourceTree = "<group>"; };
+		C6BD671912E29DDF00608D2B /* RangeAssertTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RangeAssertTest.m; sourceTree = "<group>"; };
+		C6BD675012E2A10400608D2B /* HCValueMatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCValueMatcher.h; sourceTree = "<group>"; };
+		C6BD675112E2A10400608D2B /* HCValueMatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCValueMatcher.m; sourceTree = "<group>"; };
+		C6BD67B612E2A8B900608D2B /* IsEqualToRangeTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IsEqualToRangeTest.m; sourceTree = "<group>"; };
+		C6BD67BF12E2AA0E00608D2B /* IsLocationInRangeTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IsLocationInRangeTest.m; sourceTree = "<group>"; };
+		C6BD67D112E2AB5A00608D2B /* EmptyRangeTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmptyRangeTest.m; sourceTree = "<group>"; };
+		C6BD67E112E2AE1D00608D2B /* InvalidRangeTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InvalidRangeTest.m; sourceTree = "<group>"; };
+		C6CE3E5E12E272DD0048724B /* HCRectAssert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCRectAssert.h; sourceTree = "<group>"; };
+		C6CE3E5F12E272DD0048724B /* HCRectAssert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCRectAssert.m; sourceTree = "<group>"; };
+		C6CE3E6812E2773D0048724B /* HCIsEqualToRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCIsEqualToRect.h; sourceTree = "<group>"; };
+		C6CE3E6912E2773D0048724B /* HCIsEqualToRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCIsEqualToRect.m; sourceTree = "<group>"; };
+		C6CE3EAE12E27C910048724B /* HCPointAssert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCPointAssert.m; sourceTree = "<group>"; };
+		C6CE3EAF12E27C910048724B /* HCPointAssert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCPointAssert.h; sourceTree = "<group>"; };
+		C6CE3EB012E27C910048724B /* HCIsEqualToPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCIsEqualToPoint.h; sourceTree = "<group>"; };
+		C6CE3EB112E27C910048724B /* HCIsEqualToPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCIsEqualToPoint.m; sourceTree = "<group>"; };
+		C6CE3EBD12E27D610048724B /* HCIsEqualToSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCIsEqualToSize.m; sourceTree = "<group>"; };
+		C6CE3EBE12E27D610048724B /* HCIsEqualToSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCIsEqualToSize.h; sourceTree = "<group>"; };
+		C6CE3EBF12E27D610048724B /* HCSizeAssert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCSizeAssert.h; sourceTree = "<group>"; };
+		C6CE3EC012E27D610048724B /* HCSizeAssert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCSizeAssert.m; sourceTree = "<group>"; };
+		C6CE3EC712E27D8E0048724B /* HCIntersectsRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCIntersectsRect.h; sourceTree = "<group>"; };
+		C6CE3EC812E27D8E0048724B /* HCIntersectsRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCIntersectsRect.m; sourceTree = "<group>"; };
+		C6CE3EF612E280160048724B /* HCNullRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCNullRect.h; sourceTree = "<group>"; };
+		C6CE3EF712E280160048724B /* HCNullRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCNullRect.m; sourceTree = "<group>"; };
 		C6CE3F0D12E283920048724B /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = System/Library/Frameworks/ApplicationServices.framework; sourceTree = SDKROOT; };
+		C6CE3F1412E283B00048724B /* HCInfiniteRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCInfiniteRect.h; sourceTree = "<group>"; };
+		C6CE3F1512E283B00048724B /* HCInfiniteRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCInfiniteRect.m; sourceTree = "<group>"; };
+		C6CE3F1B12E283FF0048724B /* HCEmptyRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCEmptyRect.h; sourceTree = "<group>"; };
+		C6CE3F1C12E283FF0048724B /* HCEmptyRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCEmptyRect.m; sourceTree = "<group>"; };
+		C6CE3F2012E285060048724B /* HCContainedInRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCContainedInRect.h; sourceTree = "<group>"; };
+		C6CE3F2112E285060048724B /* HCContainedInRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCContainedInRect.m; sourceTree = "<group>"; };
+		C6CE3F2512E2857C0048724B /* HCContainsRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCContainsRect.h; sourceTree = "<group>"; };
+		C6CE3F2612E2857C0048724B /* HCContainsRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCContainsRect.m; sourceTree = "<group>"; };
+		C6CE3F5312E28AF50048724B /* HCPointerAssert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCPointerAssert.m; sourceTree = "<group>"; };
+		C6CE3F5412E28AF50048724B /* HCPointerAssert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCPointerAssert.h; sourceTree = "<group>"; };
+		C6CE3F5C12E28BC60048724B /* HCIsEqualToPointer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCIsEqualToPointer.h; sourceTree = "<group>"; };
+		C6CE3F5D12E28BC60048724B /* HCIsEqualToPointer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCIsEqualToPointer.m; sourceTree = "<group>"; };
+		C6DA8A8412E1EEB500CC0F31 /* HCIsNullPointer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCIsNullPointer.h; sourceTree = "<group>"; };
+		C6DA8A8512E1EEB500CC0F31 /* HCIsNullPointer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCIsNullPointer.m; sourceTree = "<group>"; };
+		C6DA8A9212E1F35900CC0F31 /* HCIsLocationInRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCIsLocationInRange.h; sourceTree = "<group>"; };
+		C6DA8A9312E1F35900CC0F31 /* HCIsLocationInRange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCIsLocationInRange.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -543,6 +664,7 @@
 				0F2A4BB30D8C430000051BCF /* Number */,
 				0F2A4B7B0D8C382E00051BCF /* Object */,
 				0F2EBB760D9EF8D500340F95 /* Text */,
+				C6CE3F4712E287C00048724B /* Other */,
 			);
 			path = "Unit Tests";
 			sourceTree = "<group>";
@@ -571,6 +693,7 @@
 				0F2A4BB40D8C431800051BCF /* Number */,
 				0F2A4B6C0D8C33C000051BCF /* Object */,
 				0F2EBB7B0D9EF8F400340F95 /* Text */,
+				C6DA8A6912E1EE6200CC0F31 /* Other */,
 			);
 			path = Library;
 			sourceTree = "<group>";
@@ -711,6 +834,126 @@
 			name = "Other Sources";
 			sourceTree = "<group>";
 		};
+		C6AB8E3912E25645004152F7 /* Range */ = {
+			isa = PBXGroup;
+			children = (
+				C6AB8DFE12E24FA6004152F7 /* HCRangeAssert.h */,
+				C6AB8DFF12E24FA6004152F7 /* HCRangeAssert.m */,
+				C6AB8E0212E2509C004152F7 /* HCIsEqualToRange.h */,
+				C6AB8E0312E2509C004152F7 /* HCIsEqualToRange.m */,
+				C6DA8A9212E1F35900CC0F31 /* HCIsLocationInRange.h */,
+				C6DA8A9312E1F35900CC0F31 /* HCIsLocationInRange.m */,
+				C6AB8E3212E255E5004152F7 /* HCInvalidRange.h */,
+				C6AB8E3312E255E5004152F7 /* HCInvalidRange.m */,
+				C6AB8E2D12E253C2004152F7 /* HCEmptyRange.h */,
+				C6AB8E2E12E253C2004152F7 /* HCEmptyRange.m */,
+			);
+			name = Range;
+			sourceTree = "<group>";
+		};
+		C6BD66DB12E2943900608D2B /* Pointer */ = {
+			isa = PBXGroup;
+			children = (
+				C6BD66DD12E2946300608D2B /* PointerAssertTest.m */,
+				C6BD66FF12E29A4D00608D2B /* IsEqualToPointerTest.m */,
+				C6BD670612E29B9100608D2B /* IsNullPointerTest.m */,
+			);
+			name = Pointer;
+			sourceTree = "<group>";
+		};
+		C6BD671712E29DAE00608D2B /* Range */ = {
+			isa = PBXGroup;
+			children = (
+				C6BD671912E29DDF00608D2B /* RangeAssertTest.m */,
+				C6BD67B612E2A8B900608D2B /* IsEqualToRangeTest.m */,
+				C6BD67BF12E2AA0E00608D2B /* IsLocationInRangeTest.m */,
+				C6BD67E112E2AE1D00608D2B /* InvalidRangeTest.m */,
+				C6BD67D112E2AB5A00608D2B /* EmptyRangeTest.m */,
+			);
+			name = Range;
+			sourceTree = "<group>";
+		};
+		C6CE3E5D12E272BB0048724B /* Point */ = {
+			isa = PBXGroup;
+			children = (
+				C6CE3EAF12E27C910048724B /* HCPointAssert.h */,
+				C6CE3EAE12E27C910048724B /* HCPointAssert.m */,
+				C6CE3EB012E27C910048724B /* HCIsEqualToPoint.h */,
+				C6CE3EB112E27C910048724B /* HCIsEqualToPoint.m */,
+			);
+			name = Point;
+			sourceTree = "<group>";
+		};
+		C6CE3E7612E27B0D0048724B /* Size */ = {
+			isa = PBXGroup;
+			children = (
+				C6CE3EBF12E27D610048724B /* HCSizeAssert.h */,
+				C6CE3EC012E27D610048724B /* HCSizeAssert.m */,
+				C6CE3EBE12E27D610048724B /* HCIsEqualToSize.h */,
+				C6CE3EBD12E27D610048724B /* HCIsEqualToSize.m */,
+			);
+			name = Size;
+			sourceTree = "<group>";
+		};
+		C6CE3EBA12E27CD30048724B /* Rect */ = {
+			isa = PBXGroup;
+			children = (
+				C6CE3E5E12E272DD0048724B /* HCRectAssert.h */,
+				C6CE3E5F12E272DD0048724B /* HCRectAssert.m */,
+				C6CE3E6812E2773D0048724B /* HCIsEqualToRect.h */,
+				C6CE3E6912E2773D0048724B /* HCIsEqualToRect.m */,
+				C6CE3EC712E27D8E0048724B /* HCIntersectsRect.h */,
+				C6CE3EC812E27D8E0048724B /* HCIntersectsRect.m */,
+				C6CE3F2512E2857C0048724B /* HCContainsRect.h */,
+				C6CE3F2612E2857C0048724B /* HCContainsRect.m */,
+				C6CE3F2012E285060048724B /* HCContainedInRect.h */,
+				C6CE3F2112E285060048724B /* HCContainedInRect.m */,
+				C6CE3F1B12E283FF0048724B /* HCEmptyRect.h */,
+				C6CE3F1C12E283FF0048724B /* HCEmptyRect.m */,
+				C6CE3EF612E280160048724B /* HCNullRect.h */,
+				C6CE3EF712E280160048724B /* HCNullRect.m */,
+				C6CE3F1412E283B00048724B /* HCInfiniteRect.h */,
+				C6CE3F1512E283B00048724B /* HCInfiniteRect.m */,
+			);
+			name = Rect;
+			sourceTree = "<group>";
+		};
+		C6CE3F4712E287C00048724B /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				C6BD66DB12E2943900608D2B /* Pointer */,
+				C6BD671712E29DAE00608D2B /* Range */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		C6CE3F4812E28A500048724B /* Pointer */ = {
+			isa = PBXGroup;
+			children = (
+				C6CE3F5412E28AF50048724B /* HCPointerAssert.h */,
+				C6CE3F5312E28AF50048724B /* HCPointerAssert.m */,
+				C6CE3F5C12E28BC60048724B /* HCIsEqualToPointer.h */,
+				C6CE3F5D12E28BC60048724B /* HCIsEqualToPointer.m */,
+				C6DA8A8412E1EEB500CC0F31 /* HCIsNullPointer.h */,
+				C6DA8A8512E1EEB500CC0F31 /* HCIsNullPointer.m */,
+			);
+			name = Pointer;
+			sourceTree = "<group>";
+		};
+		C6DA8A6912E1EE6200CC0F31 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				C6BD675012E2A10400608D2B /* HCValueMatcher.h */,
+				C6BD675112E2A10400608D2B /* HCValueMatcher.m */,
+				C6CE3F4812E28A500048724B /* Pointer */,
+				C6AB8E3912E25645004152F7 /* Range */,
+				C6CE3E5D12E272BB0048724B /* Point */,
+				C6CE3E7612E27B0D0048724B /* Size */,
+				C6CE3EBA12E27CD30048724B /* Rect */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -760,6 +1003,26 @@
 				0F1A544C10C45F44009C870F /* HCIsEqualToNumber.h in Headers */,
 				0FA5A05210C57BAE005FB8BB /* HCNumberAssert.h in Headers */,
 				0F00572A10C5AA9700A777F3 /* HCBoxNumber.h in Headers */,
+				C6AB8E0512E2509C004152F7 /* HCIsEqualToRange.h in Headers */,
+				C6AB8E3012E253C2004152F7 /* HCEmptyRange.h in Headers */,
+				C6AB8E3512E255E5004152F7 /* HCInvalidRange.h in Headers */,
+				C6CE3E6112E272DD0048724B /* HCRectAssert.h in Headers */,
+				C6CE3E6B12E2773D0048724B /* HCIsEqualToRect.h in Headers */,
+				C6CE3EB512E27C910048724B /* HCPointAssert.h in Headers */,
+				C6CE3EB612E27C910048724B /* HCIsEqualToPoint.h in Headers */,
+				C6CE3EC412E27D610048724B /* HCIsEqualToSize.h in Headers */,
+				C6CE3EC512E27D610048724B /* HCSizeAssert.h in Headers */,
+				C6CE3ECA12E27D8E0048724B /* HCIntersectsRect.h in Headers */,
+				C6CE3EF312E27FF80048724B /* HCIsLocationInRange.h in Headers */,
+				C6CE3EF412E27FF90048724B /* HCIsNullPointer.h in Headers */,
+				C6CE3EF512E27FFB0048724B /* HCRangeAssert.h in Headers */,
+				C6CE3EF912E280160048724B /* HCNullRect.h in Headers */,
+				C6CE3F1712E283B00048724B /* HCInfiniteRect.h in Headers */,
+				C6CE3F1E12E283FF0048724B /* HCEmptyRect.h in Headers */,
+				C6CE3F2312E285060048724B /* HCContainedInRect.h in Headers */,
+				C6CE3F2812E2857C0048724B /* HCContainsRect.h in Headers */,
+				C6CE3F5712E28AF50048724B /* HCPointerAssert.h in Headers */,
+				C6CE3F5F12E28BC60048724B /* HCIsEqualToPointer.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -944,6 +1207,14 @@
 				0FF1B2041086E55100E615AE /* InvocationMatcherTest.m in Sources */,
 				0F1A545C10C46194009C870F /* IsEqualToNumberTest.m in Sources */,
 				0FA5A04B10C57983005FB8BB /* NumberAssertTest.m in Sources */,
+				C6BD66DE12E2946300608D2B /* PointerAssertTest.m in Sources */,
+				C6BD670012E29A4D00608D2B /* IsEqualToPointerTest.m in Sources */,
+				C6BD670712E29B9100608D2B /* IsNullPointerTest.m in Sources */,
+				C6BD671A12E29DDF00608D2B /* RangeAssertTest.m in Sources */,
+				C6BD67B712E2A8B900608D2B /* IsEqualToRangeTest.m in Sources */,
+				C6BD67C012E2AA0E00608D2B /* IsLocationInRangeTest.m in Sources */,
+				C6BD67D212E2AB5A00608D2B /* EmptyRangeTest.m in Sources */,
+				C6BD67E212E2AE1D00608D2B /* InvalidRangeTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -986,6 +1257,27 @@
 				50066DFC1191DE6300A7A86D /* HCBaseMatcher.mm in Sources */,
 				50066DFF1191DE6400A7A86D /* HCCollectMatchers.mm in Sources */,
 				50066E011191DE7400A7A86D /* NSObject_HCSelfDescribingValue.mm in Sources */,
+				C6AB8E0412E2509C004152F7 /* HCIsEqualToRange.m in Sources */,
+				C6AB8E2F12E253C2004152F7 /* HCEmptyRange.m in Sources */,
+				C6AB8E3412E255E5004152F7 /* HCInvalidRange.m in Sources */,
+				C6CE3E6012E272DD0048724B /* HCRectAssert.m in Sources */,
+				C6CE3E6A12E2773D0048724B /* HCIsEqualToRect.m in Sources */,
+				C6CE3EB212E27C910048724B /* HCPointAssert.m in Sources */,
+				C6CE3EB312E27C910048724B /* HCIsEqualToPoint.m in Sources */,
+				C6CE3EC112E27D610048724B /* HCIsEqualToSize.m in Sources */,
+				C6CE3EC212E27D610048724B /* HCSizeAssert.m in Sources */,
+				C6CE3EC912E27D8E0048724B /* HCIntersectsRect.m in Sources */,
+				C6CE3EF012E27FE60048724B /* HCIsLocationInRange.m in Sources */,
+				C6CE3EF112E27FEA0048724B /* HCIsNullPointer.m in Sources */,
+				C6CE3EF212E27FEC0048724B /* HCRangeAssert.m in Sources */,
+				C6CE3EF812E280160048724B /* HCNullRect.m in Sources */,
+				C6CE3F1612E283B00048724B /* HCInfiniteRect.m in Sources */,
+				C6CE3F1D12E283FF0048724B /* HCEmptyRect.m in Sources */,
+				C6CE3F2212E285060048724B /* HCContainedInRect.m in Sources */,
+				C6CE3F2712E2857C0048724B /* HCContainsRect.m in Sources */,
+				C6CE3F5512E28AF50048724B /* HCPointerAssert.m in Sources */,
+				C6CE3F5E12E28BC60048724B /* HCIsEqualToPointer.m in Sources */,
+				C6BD675412E2A48100608D2B /* HCValueMatcher.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1028,6 +1320,27 @@
 				0FF1B1E31086DFDA00E615AE /* HCInvocationMatcher.mm in Sources */,
 				0F1A544D10C45F44009C870F /* HCIsEqualToNumber.mm in Sources */,
 				0FA5A05310C57BAE005FB8BB /* HCNumberAssert.mm in Sources */,
+				C6AB8E0612E2509C004152F7 /* HCIsEqualToRange.m in Sources */,
+				C6AB8E0712E250AA004152F7 /* HCRangeAssert.m in Sources */,
+				C6AB8E0812E250AD004152F7 /* HCIsNullPointer.m in Sources */,
+				C6AB8E0B12E25107004152F7 /* HCIsLocationInRange.m in Sources */,
+				C6AB8E3112E253C2004152F7 /* HCEmptyRange.m in Sources */,
+				C6AB8E3612E255E5004152F7 /* HCInvalidRange.m in Sources */,
+				C6CE3E6212E272DD0048724B /* HCRectAssert.m in Sources */,
+				C6CE3E6C12E2773D0048724B /* HCIsEqualToRect.m in Sources */,
+				C6CE3EB412E27C910048724B /* HCPointAssert.m in Sources */,
+				C6CE3EB712E27C910048724B /* HCIsEqualToPoint.m in Sources */,
+				C6CE3EC312E27D610048724B /* HCIsEqualToSize.m in Sources */,
+				C6CE3EC612E27D610048724B /* HCSizeAssert.m in Sources */,
+				C6CE3ECB12E27D8E0048724B /* HCIntersectsRect.m in Sources */,
+				C6CE3EFA12E280160048724B /* HCNullRect.m in Sources */,
+				C6CE3F1812E283B00048724B /* HCInfiniteRect.m in Sources */,
+				C6CE3F1F12E283FF0048724B /* HCEmptyRect.m in Sources */,
+				C6CE3F2412E285060048724B /* HCContainedInRect.m in Sources */,
+				C6CE3F2912E2857C0048724B /* HCContainsRect.m in Sources */,
+				C6CE3F5612E28AF50048724B /* HCPointerAssert.m in Sources */,
+				C6CE3F6012E28BC60048724B /* HCIsEqualToPointer.m in Sources */,
+				C6BD675312E2A47500608D2B /* HCValueMatcher.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
