@@ -26,16 +26,6 @@
     return self;
 }
 
-+ (BOOL)instancesRespondToSelector:(SEL)aSelector
-{
-    return [super instancesRespondToSelector:aSelector] || [NSValue instancesRespondToSelector:aSelector];
-}
-
-- (BOOL)respondsToSelector:(SEL)aSelector;
-{
-    return [super respondsToSelector:aSelector] || [_value respondsToSelector:aSelector];
-}
-
 - (id)forwardingTargetForSelector:(SEL)aSelector
 {
     return _value;

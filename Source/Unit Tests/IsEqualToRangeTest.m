@@ -33,7 +33,7 @@
     assertMatches(@"Far large range", equalToRange(NSMakeRange(NSUIntegerMax, NSUIntegerMax)), [NSValue valueWithRange:NSMakeRange(NSUIntegerMax, NSUIntegerMax)]);
 }
 
-- (void)testMismatchesDifferentNumber
+- (void)testMismatchesDifferentValue
 {
     assertDoesNotMatch(@"Different", equalToRange(NSMakeRange(0, 0)), [NSValue valueWithRange:NSMakeRange(10, 10)]);
 }

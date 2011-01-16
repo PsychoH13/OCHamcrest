@@ -25,10 +25,6 @@
     return emptyRange();
 }
 
-- (void)testComparesWithNSValue
-{
-}
-
 - (void)testEvaluatesToTrueIfRangeIsEmpty
 {
     assertMatches(@"Empty range", emptyRange(), [NSValue valueWithRange:NSMakeRange(NSNotFound, 0)]);

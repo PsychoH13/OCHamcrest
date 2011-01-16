@@ -68,8 +68,7 @@ id<HCMatcher> HC_containsRect(NSRect equalArg)
 
 - (void)describeTo:(id<HCDescription>)description
 {
-    [[description appendText:@"contains rect "]
-     appendValue:self];
+    [[description appendText:@"contains "] appendValue:self];
 }
 
 @end

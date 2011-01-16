@@ -68,8 +68,7 @@ id<HCMatcher> HC_intersectsRect(NSRect equalArg)
 
 - (void)describeTo:(id<HCDescription>)description
 {
-    [[description appendText:@"interescting with rect "]
-     appendValue:self];
+    [[description appendText:@"interescting with "] appendValue:self];
 }
 
 @end

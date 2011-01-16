@@ -37,8 +37,7 @@ id<HCMatcher> HC_nullCGRect(void)
 
 - (void)describeTo:(id<HCDescription>)description
 {
-    [[description appendText:@"null rect "]
-     appendValue:self];
+    [description appendText:@"null rect"];
 }
 
 @end
@@ -63,7 +62,7 @@ id<HCMatcher> HC_nullRect(void)
     if(![item respondsToSelector:@selector(rectValue)])
         return NO;
     
-    return CGRectIsNull(NSRectToCGRect([item rectValue]));
+    return NSEqualRects([item rectValue], [self rectValue]);
 }
 
 - (void)describeTo:(id<HCDescription>)description

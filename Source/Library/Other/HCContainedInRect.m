@@ -29,6 +29,16 @@ id<HCMatcher> HC_containedInCGRect(CGRect equalArg)
 
 - (BOOL)matches:(id)item
 {
+    if([item respondsToSelector:@selector(objCType)])
+    {
+        const char *type = [item objCType];
+        
+        if(strcmp(type, @encode(CGRect)) == 0 && [item respondsToSelector:@selector(CGRectValue)])
+            return CGRectContainsRect([self CGRectValue], [item CGRectValue]);
+        else if(strcmp(type, @encode(CGPoint)) == 0 && [item respondsToSelector:@selector(CGPointValue)])
+            return CGRectContainsPoint([self CGRectValue], [item CGPointValue]);
+    }
+    
     if([item respondsToSelector:@selector(CGRectValue)])
         return CGRectContainsRect([self CGRectValue], [item CGRectValue]);
     
@@ -40,8 +50,7 @@ id<HCMatcher> HC_containedInCGRect(CGRect equalArg)
 
 - (void)describeTo:(id<HCDescription>)description
 {
-    [[description appendText:@"contained in rect "]
-     appendValue:self];
+    [[description appendText:@"contained in "] appendValue:self];
 }
 
 @end
@@ -63,6 +72,16 @@ id<HCMatcher> HC_containedInRect(NSRect equalArg)
 
 - (BOOL)matches:(id)item
 {
+    if([item respondsToSelector:@selector(objCType)])
+    {
+        const char *type = [item objCType];
+        
+        if(strcmp(type, @encode(NSRect)) == 0 && [item respondsToSelector:@selector(rectValue)])
+            return NSContainsRect([self rectValue], [item rectValue]);
+        else if(strcmp(type, @encode(NSPoint)) == 0 && [item respondsToSelector:@selector(pointValue)])
+            return NSPointInRect([item pointValue], [self rectValue]);
+    }
+    
     if([item respondsToSelector:@selector(rectValue)])
         return NSContainsRect([self rectValue], [item rectValue]);
     
@@ -74,8 +93,7 @@ id<HCMatcher> HC_containedInRect(NSRect equalArg)
 
 - (void)describeTo:(id<HCDescription>)description
 {
-    [[description appendText:@"contained in rect "]
-     appendValue:self];
+    [[description appendText:@"contained in "] appendValue:self];
 }
 
 @end
